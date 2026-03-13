@@ -1,0 +1,6 @@
+{
+  "name": "om",
+  "description": "OM 后台 CRUD 开发助手 - 通过交互式问答引导非技术人员完成页面开发",
+  "version": "1.0.0",
+  "author": { "name": "OM Team" }
+}
