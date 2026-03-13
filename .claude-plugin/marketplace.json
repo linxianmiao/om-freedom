@@ -1,6 +1,32 @@
 {
   "name": "om",
-  "description": "OM 后台 CRUD 开发助手 - 通过交互式问答引导非技术人员完成页面开发",
-  "version": "1.0.0",
-  "author": { "name": "OM Team" }
+  "owner": {
+    "name": "lxm",
+    "email": "lxxmmmmxxl@gmail.com"
+  },
+  "metadata": {
+    "description": "用于让产运同学能放飞自我修改om后台",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "om-skills",
+      "description": "om 管理后台前端开发",
+      "source": "./skills",
+      "strict": false,
+      "skills": [
+        "./_base",
+        "./add-button",
+        "./add-dialog",
+        "./add-form-field",
+        "./add-page",
+        "./add-search-field",
+        "./add-table-column",
+        "./remove-button",
+        "./remove-form-field",
+        "./remove-search-field",
+        "./remove-table-column"
+      ]
+    }
+  ]
 }
