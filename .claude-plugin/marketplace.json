@@ -25,7 +25,8 @@
         "./remove-button",
         "./remove-form-field",
         "./remove-search-field",
-        "./remove-table-column"
+        "./remove-table-column",
+        "./verify-change"
       ]
     }
   ]
